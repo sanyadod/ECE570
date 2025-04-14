@@ -28,5 +28,6 @@ The project is organized into three primary Colab cells:
     conda activate byol-env
 
 3. **Install Dependencies:**
+    ```bash
    pip install -r requirements.txt
 
