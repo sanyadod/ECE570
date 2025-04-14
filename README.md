@@ -23,9 +23,9 @@ The project is organized into three primary Colab cells:
    cd byol-cifar10-project
 
 2. **(Optional) Create a Virtual Environment:**
-
-conda create --name byol-env python=3.9
-conda activate byol-env
+   ```bash
+    conda create --name byol-env python=3.9
+    conda activate byol-env
 
 3. **Install Dependencies:**
    pip install -r requirements.txt
