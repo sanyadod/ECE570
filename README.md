@@ -15,6 +15,18 @@ The project is organized into three primary Colab cells:
   The final cell benchmarks BYOL against SimCLR and MoCo. SimCLR uses an NT-Xent loss with a concatenation of two augmented views, while MoCo employs a momentum-based key encoder and a dynamic queue to manage negative samples. Their respective loss curves are compared to show that BYOL achieves rapid convergence with much lower loss values.
 
 ## Environment Setup
-To ensure you have all required dependencies, run the following command in your Colab notebook:
-```bash
-!pip freeze > requirements.txt
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/byol-cifar10-project.git
+   cd byol-cifar10-project
+
+2. **(Optional) Create a Virtual Environment:**
+
+conda create --name byol-env python=3.9
+conda activate byol-env
+
+3. **Install Dependencies:**
+   pip install -r requirements.txt
+
