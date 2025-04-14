@@ -1,5 +1,3 @@
-# ECE570
-
 # BYOL CIFAR-10 Project
 
 ## Overview
