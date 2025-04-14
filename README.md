@@ -31,6 +31,4 @@ The project is organized into three primary Colab cells:
     ```bash
    pip install -r requirements.txt
 
-## 📹 Demo Video
-[Click here to watch the demo video on Google Drive](https://drive.google.com/file/d/1-L8-U4Up1b1_qYTj-EZttpTH2phZi9gR/view?usp=sharing)
 
